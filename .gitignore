@@ -1,0 +1,16 @@
+node_modules/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
