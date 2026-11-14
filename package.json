@@ -1,5 +1,26 @@
 {
-  "dependencies": {
-    "koishi-plugin-count-group-name": "^0.0.1"
+  "name": "koishi-plugin-count-group-name",
+  "description": "统计历史群名",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "group"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "【没什么乱用小插件】统计一个群的历史群名，包含修改人、时间等"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7"
   }
 }
